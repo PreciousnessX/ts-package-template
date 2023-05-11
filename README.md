@@ -1,3 +1,2 @@
 
-## ThreeBase
-threeJs + BaseUtils
+## js库 打包模板
