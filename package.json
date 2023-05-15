@@ -4,11 +4,12 @@
 	"description": "",
 	"main": "dist/index.cjs.js",
 	"module": "dist/index.esm.js",
-	"types": "dist/index.d.ts",
+	"types": "types/index.d.ts",
 	"unpkg": "dist/index.umd.min.js",
 	"files": [
 		"dist",
 		"lib",
+        "types",
 		"esm",
 		"readme.md",
 		"tsconfig.json"
@@ -27,7 +28,7 @@
 		"build:example": "vite build --mode production"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "hongbo",
 	"license": "ISC",
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^22.0.0",
